@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/smartfoodie/static/css/main.77d2cbcc.css",
-    "main.js": "/smartfoodie/static/js/main.23d0765f.js",
-    "static/js/453.8285c5b3.chunk.js": "/smartfoodie/static/js/453.8285c5b3.chunk.js",
-    "static/media/logo.svg": "/smartfoodie/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/smartfoodie/index.html",
-    "main.77d2cbcc.css.map": "/smartfoodie/static/css/main.77d2cbcc.css.map",
-    "main.23d0765f.js.map": "/smartfoodie/static/js/main.23d0765f.js.map",
-    "453.8285c5b3.chunk.js.map": "/smartfoodie/static/js/453.8285c5b3.chunk.js.map"
+    "main.css": "./static/css/main.77d2cbcc.css",
+    "main.js": "./static/js/main.3ee5509d.js",
+    "static/js/453.8285c5b3.chunk.js": "./static/js/453.8285c5b3.chunk.js",
+    "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "./index.html",
+    "main.77d2cbcc.css.map": "./static/css/main.77d2cbcc.css.map",
+    "main.3ee5509d.js.map": "./static/js/main.3ee5509d.js.map",
+    "453.8285c5b3.chunk.js.map": "./static/js/453.8285c5b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77d2cbcc.css",
-    "static/js/main.23d0765f.js"
+    "static/js/main.3ee5509d.js"
   ]
 }
