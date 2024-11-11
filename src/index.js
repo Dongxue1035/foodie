@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import {
   createBrowserRouter,
+  createHashRouter,
   redirect,
   RouterProvider,
   useNavigate,
@@ -16,7 +17,7 @@ import Products from "./page/unser-angebot/banner4";
 import Banner from "./page/unser-angebot/banner";
 import OurFood from "./page/unser-angebot/Banner3";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Layout />,
