@@ -13,7 +13,7 @@ function OurFood() {
         <button style={styles.meetingButton}><a href="#footer">Arrange an initial meeting</a></button>
       </div>
 
-      <div style={styles.imageContainer}>
+      <div style={styles.imageContainer} className=" flex !flex-col lg:!flex-row">
         <img src="./1.png" alt="Salad" style={styles.image} />
         <img src="./2.jpg" alt="Foodie Vending Machine" style={styles.image} />
         <img src="./1.jpg" alt="Pasta Dish" style={styles.image} />
@@ -70,8 +70,8 @@ const styles = {
     fontWeight: 'bold',
   },
   imageContainer: {
-    display: 'flex',
-    justifyContent: 'center',
+
+  
     gap: '15px', // Adds spacing between images
     marginTop: '20px',
   },

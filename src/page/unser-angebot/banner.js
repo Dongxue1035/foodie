@@ -1,8 +1,8 @@
 const Banner = () => {
   return (
-  
+
     <section style={styles.container}>
-      <div style={styles.content}>
+      <div style={styles.content} className="!flex !flex-col lg:!flex-row items-center">
         <div style={styles.textSection}>
           <h1 style={styles.heading}>The 24/7 catering solution for employees</h1>
 
@@ -17,11 +17,12 @@ const Banner = () => {
           </button>
 
         </div>
-        <div style={styles.imageSection}>
+        <div style={styles.imageSection} className="flex-2 ">
           <img
             src="./3.jpg" // 指向 public 文件夹下的图片
             alt="Smart fridge with food"
             style={styles.image}
+            className="w-full l mt-8 lg:mt-0 lg:ml-[150px] max-w-[779px] h-[600px]"
           />
         </div>
       </div>
@@ -77,16 +78,11 @@ const styles = {
     marginTop: '50px',
   },
   imageSection: {
-    marginLeft: '200px', // Increase left margin to push the image further to the right
-    flex: 2,             // Increase flex value to allow more space for the image
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
+   // Increase left margin to push the image further to the right
+         // Increase flex value to allow more space for the ima
   },
   image: {
-    width: '120%',
-    height: '600px',       // Increase height for larger display
-    maxWidth: '900px',     // Increase max width for larger image size
+   // Increase max width for larger image size
     objectFit: 'cover',
     borderRadius: '20px',
   },
