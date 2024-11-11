@@ -13,7 +13,7 @@ const Highlights = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-8">
         <div className="bg-[#F7ECEC] min-h-[600px] flex flex-col rounded-lg p-6">
           <img
-            src="/14.png" // Replace with actual image path
+            src="./14.png" // Replace with actual image path
             alt="Our Food"
             className="rounded-t-lg w-full h-80 object-cover mb-4"
           />
@@ -27,7 +27,7 @@ const Highlights = () => {
 
         <div className="bg-[#d7e6f3] min-h-[500px] flex flex-col rounded-lg p-6">
           <img
-            src="/APP.png" // Replace with actual image path
+            src="./APP.png" // Replace with actual image path
             alt="Our Innovation"
             className="rounded-t-lg w-full h-80 object-cover mb-4"
           />
@@ -41,7 +41,7 @@ const Highlights = () => {
 
         <div className="bg-[#fdf0d4]  min-h-[500px] flex flex-col rounded-lg p-6">
           <img
-            src="/1.png" // Replace with actual image path
+            src="./1.png" // Replace with actual image path
             alt="Our Offer"
             className="rounded-t-lg w-full h-80 object-cover mb-4"
           />

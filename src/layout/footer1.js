@@ -18,7 +18,7 @@ export default function Footer1() {
           </ul>
           <div className="flex items-center space-x-4 bg-[#f8d3bd] p-4 rounded-lg">
             <img
-              src="/xiaoting.jpg" // Replace with actual image path
+              src="./xiaoting.jpg" // Replace with actual image path
               alt="Josephine Wichmann"
               className="w-16 h-16 rounded-full object-cover"
             />

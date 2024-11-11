@@ -11,7 +11,7 @@ export default function Footer2() {
         </div>
         <button className="flex items-center border px-4 py-2 rounded-lg hover:bg-gray-100">
           <img
-            src="/eng.png" // Replace with actual path to the flag icon
+            src="./eng.png" // Replace with actual path to the flag icon
             alt="Language"
             className="w-5 h-5 mr-2"
           />

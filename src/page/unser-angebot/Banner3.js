@@ -14,9 +14,9 @@ function OurFood() {
       </div>
 
       <div style={styles.imageContainer}>
-        <img src="/1.png" alt="Salad" style={styles.image} />
-        <img src="/2.jpg" alt="Foodie Vending Machine" style={styles.image} />
-        <img src="/1.jpg" alt="Pasta Dish" style={styles.image} />
+        <img src="./1.png" alt="Salad" style={styles.image} />
+        <img src="./2.jpg" alt="Foodie Vending Machine" style={styles.image} />
+        <img src="./1.jpg" alt="Pasta Dish" style={styles.image} />
       </div>
     </div>
   );

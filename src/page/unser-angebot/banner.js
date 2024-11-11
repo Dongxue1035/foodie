@@ -19,7 +19,7 @@ const Banner = () => {
         </div>
         <div style={styles.imageSection}>
           <img
-            src="/3.jpg" // 指向 public 文件夹下的图片
+            src="./3.jpg" // 指向 public 文件夹下的图片
             alt="Smart fridge with food"
             style={styles.image}
           />
