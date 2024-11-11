@@ -1,19 +1,19 @@
 import React from "react";
 
 const products = [
-  { name: "Aubegine nach Yuxiang art", img: "/95.png", tag: "vegan" },
-  { name: "Zartes Rindfleisch mit Peperoni", img: "/81.png", tag: "main" },
+  { name: "Aubegine nach Yuxiang art", img: "./95.png", tag: "vegan" },
+  { name: "Zartes Rindfleisch mit Peperoni", img: "./81.png", tag: "main" },
   {
     name: "Zartes Rindfleisch mit Gemüse und schwarzem Pfeffer",
-    img: "/90.png",
+    img: "./90.png",
     tag: "main",
   },
-  { name: "Gefüllte Taschen mit Schweinefleisch", img: "/84.png", tag: "vegetarian" },
-  { name: "Rindrippen-Eintopf mit Kartoffeln", img: "/91.png", tag: "main" },
-  { name: "Spaghetti Bolognese", img: "/86.png", tag: "vegetarian" },
-  { name: "Chili Con Carne", img: "/87.png", tag: "main" },
-  { name: "Schweinebauch mit Paprika gebraten", img: "/88.png", tag: "main" },
-  { name: "Zartes Lammfleisch mit Kreuzkümmel gebraten", img: "/89.png", tag: "snack" },
+  { name: "Gefüllte Taschen mit Schweinefleisch", img: "./84.png", tag: "vegetarian" },
+  { name: "Rindrippen-Eintopf mit Kartoffeln", img: "./91.png", tag: "main" },
+  { name: "Spaghetti Bolognese", img: "./86.png", tag: "vegetarian" },
+  { name: "Chili Con Carne", img: "./87.png", tag: "main" },
+  { name: "Schweinebauch mit Paprika gebraten", img: "./88.png", tag: "main" },
+  { name: "Zartes Lammfleisch mit Kreuzkümmel gebraten", img: "./89.png", tag: "snack" },
 ];
 
 const ProductList = () => {
