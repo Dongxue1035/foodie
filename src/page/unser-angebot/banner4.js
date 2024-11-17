@@ -20,7 +20,7 @@ const ProductList = () => {
   return (
     <div className="container mx-auto px-4 py-10">
       {/* Title */}
-      <h1 className="text-4xl font-semibold text-center text-black-500 mb-6 ">
+      <h1 className="text-4xl font-sans text-center text-black-500 mb-6 ">
         We love food.
         <br />
         Discover a small selection of our diverse product range.
@@ -28,12 +28,12 @@ const ProductList = () => {
       <div className="flex">
         {/* Filter Sidebar */}
         <aside className="w-1/4 pr-8">
-          <h2 className="text-lg font-semibold text-orange-400 mb-4">
+          <h2 className="text-lg font-sans text-orange-400 mb-4">
             Filter by:
           </h2>
 
           <div className="mb-6">
-            <h3 className="text-sm font-semibold text-gray-700 mb-2">
+            <h3 className="text-sm font-sans text-gray-700 mb-2">
               INGREDIENTS
             </h3>
             <button className="block border-2 w-[150px] hover:bg-orange-400 hover:text-gray-50 h-[40px] border-orange-400 mb-2 text-gray-500 rounded-full filter-button">

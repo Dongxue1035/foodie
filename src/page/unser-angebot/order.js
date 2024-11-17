@@ -12,7 +12,12 @@ const FoodieSteps = () => {
         <p className="text-lg text-gray-600">
           Save time every day with Foodie.
         </p>
-        <button className="bg-[#f28b50] hover:bg-blue-200 text-white  py-2 px-4 rounded-full font-semibold transition">
+        <button className="bg-[#f28b50] hover:bg-blue-200 text-white  py-2 px-4 rounded-full font-semibold transition" onClick={() =>
+              document
+                .getElementById("footer")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+          >
           Arrange an initial meeting
         </button>
       </div>

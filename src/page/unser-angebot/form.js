@@ -3,7 +3,7 @@ import apiClient from "../../api/apiClient";
 
 function Form(props) {
   const [vorname, setVorname] = useState("");
-  const [nachname, setNorname] = useState("");
+  const [nachname, setNachname] = useState("");
   const [email, setEmail] = useState("");
   const [nachricht, setNachricht] = useState("");
   const { setRefresh } = props;
@@ -17,8 +17,7 @@ function Form(props) {
             value={vorname}
             onChange={(e) => {
               setVorname(e.target.value);
-            }}
-          ></input>
+            }}></input>
         </div>
         <div>
           <label>Nachname</label>
@@ -26,7 +25,7 @@ function Form(props) {
             value={nachname}
             type="text"
             onChange={(e) => {
-              setNorname(e.target.value);
+              setNachname(e.target.value);
             }}
           ></input>
         </div>
@@ -63,7 +62,6 @@ function Form(props) {
               apiClient.post("/api/UserInfo/Add", data).then(() => {
                 setRefresh((prev) => !prev);
               });
-
               e.stopPropagation();
               e.preventDefault();
               return false;

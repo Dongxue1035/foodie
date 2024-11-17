@@ -17,6 +17,8 @@ import Products from "./page/unser-angebot/banner4";
 import Banner from "./page/unser-angebot/banner";
 import OurFood from "./page/unser-angebot/Banner3";
 
+
+
 const router = createHashRouter([
   {
     path: "/",

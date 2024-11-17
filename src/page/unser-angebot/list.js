@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import apiClient from "../../api/apiClient";
 
-const List = (props) => {
-  const [data, setData] = useState([]);
+const List = (props) => { //props是一个对象，包含了从父组件传递过来的数据 
 
+  const [data, setData] = useState([]);
   //调用useEffect函数，传入两个参数，第一个参数是一个函数，第二个参数是一个空数组 []，表示只在组件挂载时调用一次
-  useEffect(() => {
+ useEffect(() => {
     getData();
   }, [props.refresh]); //当props.refresh发生变化时，调用getData函数从而获取最新数据，实现数据的实时更新
 
@@ -18,7 +18,9 @@ const List = (props) => {
     setData(data);
   };
 
+
   return (
+    //返回一个表格，表格中包含了从后台获取的数据
     <table className="border-separate border-spacing-2 border border-slate-500 ">
       <thead>
         <tr>
@@ -40,16 +42,8 @@ const List = (props) => {
               <td>{item.email}</td>
               <td>
                 <button
-                  onClick={() => {
-                    apiClient
-                      .post(`/api/UserInfo/Delete/${item.id}`)
-                      .then(() => {
-                        getData();
-                      });
-                  }}
-                >
-                  Delete
-                </button>
+                  onClick={  () => {apiClient.post(`/api/UserInfo/Delete/${item.id}`).then(() => {getData();});}}
+                >Delete</button>
               </td>
             </tr>
           );

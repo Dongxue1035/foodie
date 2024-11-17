@@ -10,7 +10,12 @@ function OurFood() {
           <li style={styles.listItem}>✓ Products from regional partners (made in Germany)</li>
           <li style={styles.listItem}>✓ Always fresh & varied: our Food are restocked 2-3 times each week</li>
         </ul>
-        <button style={styles.meetingButton}><a href="#footer">Arrange an initial meeting</a></button>
+        <button style={styles.meetingButton} onClick={() =>
+              document
+                .getElementById("footer")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+          ><a href="#footer">Arrange an initial meeting</a></button>
       </div>
 
       <div style={styles.imageContainer} className=" flex !flex-col lg:!flex-row">

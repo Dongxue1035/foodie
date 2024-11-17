@@ -1,28 +1,32 @@
 const Banner = () => {
   return (
+    <section className="flex justify-center items-center bg-[#FFF6E5] py-20 min-h-[700px] font-sans">
+      <div className="flex flex-col lg:flex-row items-center max-w-[1200px] w-full gap-16">
+        <div className="flex-1 pr-5">
+          <h1 className="mt-12 text-4xl lg:text-5xl font-bold text-[#2A1A1F] mb-10 leading-tight">
+            The 24/7 catering solution for employees
+          </h1>
 
-    <section style={styles.container}>
-      <div style={styles.content} className="!flex !flex-col lg:!flex-row items-center">
-        <div style={styles.textSection}>
-          <h1 style={styles.heading}>The 24/7 catering solution for employees</h1>
-
-          <ul style={styles.list}>
-            <li style={styles.listItem}>✓  Fresh & delicious food - available around the clock</li>
-            <li style={styles.listItem}>✓  Customized product range thanks to AI forecasting</li>
-            <li style={styles.listItem}>✓  Tasting package & 3-month trial period</li>
-            <li style={styles.listItem}>✓  A diverse menu offering both Asian and European flavors</li>
+          <ul className="mt-8 mb-10 space-y-6 text-[#2A1A1F] list-none">
+            <li className="flex items-start">✓ Fresh & delicious food - available around the clock</li>
+            <li className="flex items-start">✓ Customized product range thanks to AI forecasting</li>
+            <li className="flex items-start">✓ Tasting package & 3-month trial period</li>
+            <li className="flex items-start">✓ A diverse menu offering both Asian and European flavors</li>
           </ul>
-          <button style={styles.arrangeButton} >
-           <a href="#footer">Arrange an initial meeting</a>
-          </button>
 
+          <button
+            className="px-6 py-3 bg-[#F16E21] text-white rounded-full text-lg font-bold mt-12 hover:bg-orange-600 transition"
+            onClick={() => document.getElementById("footer").scrollIntoView({ behavior: "smooth" })}
+          >
+            <a href="#footer">Arrange an initial meeting</a>
+          </button>
         </div>
-        <div style={styles.imageSection} className="flex-2 ">
+
+        <div className="flex-1 max-w-[900px] mt-8 lg:mt-0 lg:ml-10 translate-x-6">
           <img
-            src="./3.jpg" // 指向 public 文件夹下的图片
+            src="./3.jpg"
             alt="Smart fridge with food"
-            style={styles.image}
-            className="w-full l mt-8 lg:mt-0 lg:ml-[150px] max-w-[779px] h-[600px]"
+            className="w-full h-[500px] lg:h-[600px] object-cover rounded-2xl shadow-lg"
           />
         </div>
       </div>
@@ -30,63 +34,8 @@ const Banner = () => {
   );
 };
 
-const styles = {
-  container: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#FFF6E5',
-    padding: '40px',
-    minHeight: '700px',
-    fontFamily: 'Arial, sans-serif',
-  },
-  content: {
-    display: 'flex',
-    maxWidth: '1200px',
-    width: '100%',
-  },
-  textSection: {
-    flex: 1,
-    paddingRight: '20px',
-  },
-  heading: {
-    marginTop: '50px',
-    fontSize: '36px',
-    fontWeight: 'bold',
-    color: '#2A1A1F',
-    marginBottom: '20px',
-  },
-  list: {
-    marginTop: '70px',
-    listStyleType: 'none',
-    padding: 0,
-    marginBottom: '20px',
-    color: '#2A1A1F',
-  },
-  listItem: {
-    marginBottom: '10px', // Space between list items
-  },
-  arrangeButton: {
-    padding: '10px 20px',
-    backgroundColor: '#F16E21',
-    color: '#FFFFFF',
-    border: 'none',
-    borderRadius: '20px',
-    fontSize: '16px',
-    fontWeight: 'bold',
-    cursor: 'pointer',
-    marginTop: '50px',
-  },
-  imageSection: {
-   // Increase left margin to push the image further to the right
-         // Increase flex value to allow more space for the ima
-  },
-  image: {
-   // Increase max width for larger image size
-    objectFit: 'cover',
-    borderRadius: '20px',
-  },
-};
-
 export default Banner;
+
+
+
 

@@ -6,7 +6,7 @@ const Highlights = () => {
     <section className="py-16 text-center">
       <h2 className="text-xl font-semibold text-orange-600 uppercase mb-4">SmartFoodie Highlights</h2>
       <h3 className="text-3xl font-bold text-gray-900 mb-4">What makes our SmartFoodie so special?</h3>
-      <p className="text-gray-700 mb-12 mx-auto max-w-xl">
+      <p className="text-gray-700  font-sans  mb-12 mx-auto max-w-xl">
         SmartFoodie stands for more than just healthy nutrition in the workplace. We stand for innovation, sustainability and an individual offer for every industry and every company: the ideal catering for everyone. See your benefits here:
       </p>
 
